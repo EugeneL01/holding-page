@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+    .mobile-only {
+        display: block;
+    }
+    .desktop-only {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .desktop-only {
+        display: block;
+    }
+    .mobile-only {
+        display: none;
+    }
+}
+
+.image{
+    width: 100%;
+}
